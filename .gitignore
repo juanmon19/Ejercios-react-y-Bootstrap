@@ -1,0 +1,10 @@
+# Ignorar node_modules en cualquier subcarpeta
+**/node_modules/
+
+# Ignorar archivos de empaquetado locales de Vite o entornos de producción
+**/dist/
+**/.env
+
+# Ignorar archivos del sistema operativo o del editor
+.DS_Store
+.vscode/
